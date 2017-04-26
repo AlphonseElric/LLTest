@@ -49,7 +49,7 @@ int main(int argc, char *argv[])
 
 	unsigned int p = stoul(argv[1], nullptr, 10);
 
-	if (LLTest(p) == true) {
+	if (LLTest(p)) {
 		cout << "Congratulations! Exponent P=" << argv[1] << " is a Mersenne Prime!" << endl;
 		cout << "If this is not a known Mersenne Prime, you may be entitled to a cash prize!" << endl;
 		cout << "Visit http://www.mersenne.org for more information!" << endl;
